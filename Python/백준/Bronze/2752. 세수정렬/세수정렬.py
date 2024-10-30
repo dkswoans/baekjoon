@@ -1,0 +1,5 @@
+l=list(map(int,input().split()))
+print(min(l),end=' ')
+l.remove(min(l))
+print(min(l),end=' ')
+print(max(l))
